@@ -1,6 +1,6 @@
 ## To Do List App
 
-To Do list app built with React w/ TypeScript + Java Springboot Framework
+To Do list app built with React w/ TypeScript + Java Springboot Framework. Purpose of application is to further reinforce skills in full-stack applications, typescript, springboot and testing.
 
 # Demo and Snippets
 
@@ -21,6 +21,7 @@ MVP:
   - Edit colour - []
   - Update due date - []
   - A complete/finish button - []
+- Create a register and login feature where unique todo lists are registered to unqiue users. - []
 - Bonus:
   - Create a statistics component
     - When user hits complete button, adds a stat to total tasks completed = []
