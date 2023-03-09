@@ -32,6 +32,8 @@ MVP:
 
 # Design Goals/Approach
 
+- Created backend section using Springboot. Design is similar to employee list project.
+
 # Features
 
 # Known Issues
