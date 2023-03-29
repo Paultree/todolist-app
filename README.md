@@ -1,12 +1,10 @@
 ## To Do List App
 
-To Do list app built with React w/ TypeScript + Java Springboot Framework
+To Do list app built with React w/ Bootstrap + Firestore. Purpose of application is to become familiar with the bootstrap framework and reinforce skills with forms.
 
 # Demo and Snippets
 
 # Requirements/Purpose
-
-Purpose: To reinforce knowledge of syntax and understanding of React TypeScript and Springboot. Also to reinforce creating API's and reinforce creating tests for both React and Springboot. Furthermore, to upskill and become more comfortable with creating full-stack applications.
 
 MVP:
 
@@ -21,6 +19,7 @@ MVP:
   - Edit colour - []
   - Update due date - []
   - A complete/finish button - []
+- Create a register and login feature where unique todo lists are registered to unqiue users. - []
 - Bonus:
   - Create a statistics component
     - When user hits complete button, adds a stat to total tasks completed = []
@@ -30,6 +29,8 @@ MVP:
 # Build steps
 
 # Design Goals/Approach
+
+- Created backend section using Springboot. Design is similar to employee list project.
 
 # Features
 
