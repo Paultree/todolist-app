@@ -1,12 +1,10 @@
 ## To Do List App
 
-To Do list app built with React w/ TypeScript + Java Springboot Framework. Purpose of application is to further reinforce skills in full-stack applications, typescript, springboot and testing.
+To Do list app built with React w/ Bootstrap + Firestore. Purpose of application is to become familiar with the bootstrap framework and reinforce skills with forms.
 
 # Demo and Snippets
 
 # Requirements/Purpose
-
-Purpose: To reinforce knowledge of syntax and understanding of React TypeScript and Springboot. Also to reinforce creating API's and reinforce creating tests for both React and Springboot. Furthermore, to upskill and become more comfortable with creating full-stack applications.
 
 MVP:
 
