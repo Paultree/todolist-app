@@ -1,0 +1,18 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  &_Buttons {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    padding-top: 1rem;
+    &_Button {
+      flex: 1;
+    }
+  }
+}
+
+option {
+  text-align: center;
+}

@@ -45,6 +45,12 @@ MVP:
   - Change prio
   - Update ?
 
+5/04/2023
+
+- Added form feature
+  - A mix between react-query-firebase and useForm hook.
+- Updated the query fetch line of code from Home.jsx to re-render upon form submit.
+
 # Features
 
 # Known Issues

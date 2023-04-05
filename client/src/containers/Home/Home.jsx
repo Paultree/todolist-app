@@ -11,6 +11,7 @@ import {
 import { query, collection } from "firebase/firestore";
 import { db } from "../../firebase";
 import TaskCard from "../../components/TaskCard/TaskCard";
+import Form from "../AddTask/AddTask";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const Home = () => {
 
   const ref = query(collection(db, "todo"));
 
-  const payload = useFirestoreQuery(["todo"], ref);
+  const payload = useFirestoreQuery(["todo"], ref, { subscribe: true });
 
   return (
     <div className={styles.Home}>
@@ -30,7 +31,11 @@ const Home = () => {
       </div>
       <div className={styles.Home_Add}>
         <p className={styles.Home_Add_Para}>Click '+' to add a new task.</p>
-        <Button variant="outline-primary" className={styles.Home_Add_Button}>
+        <Button
+          onClick={toAdd}
+          variant="outline-primary"
+          className={styles.Home_Add_Button}
+        >
           +
         </Button>{" "}
       </div>

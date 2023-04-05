@@ -1,0 +1,24 @@
+.AddTask {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  &_Header {
+    background: #0d6efd;
+    color: white;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_Add {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0d6efd;
+    padding: 1rem 0;
+    &_Para {
+      margin-bottom: 0;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+    }
+  }
+}
