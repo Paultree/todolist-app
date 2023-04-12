@@ -45,7 +45,7 @@ const Home = () => {
         ) : (
           payload.data.docs.map((doc, id) => {
             const data = doc.data();
-            return <TaskCard key={id} data={data} />;
+            return <TaskCard key={id} data={data} id={doc.id} />;
           })
         )}
       </div>
