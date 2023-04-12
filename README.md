@@ -51,6 +51,11 @@ MVP:
   - A mix between react-query-firebase and useForm hook.
 - Updated the query fetch line of code from Home.jsx to re-render upon form submit.
 
+12/04/2023
+
+- Added delete button.
+- Add an update button to update task
+
 # Features
 
 # Known Issues
